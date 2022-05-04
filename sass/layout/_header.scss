@@ -1,0 +1,122 @@
+.header {
+    background-color:var(--starter-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    border: 1px solid #ECECEC;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    text-decoration: none;
+  }
+  .logo__element {
+    color:var(--address-logo-color);
+  }
+  .logo__accent {
+    color: var(--primaty-text-color);
+  }
+  /*-------------------------- MAIN-NAV -------------------------*/
+  .header__section{
+    display: flex;
+    align-items: center;
+  }
+  .header__nav{
+    display: flex;
+    align-items: center;
+  }
+  /* Site-nav */
+  .site-nav{ 
+    display: flex;
+    margin-left: 93px;
+  }
+  .site-nav .nav__item + .nav__item {
+    margin-left: 46px;
+  }
+  
+  .site-nav .nav__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    color: var(--primaty-text-color);
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    text-decoration: none;
+  }
+  .site-nav .nav__link:hover,
+  .site-nav .nav__link:focus {
+    color: var(--address-logo-color);
+  }
+  .site-contact{
+    display: flex;
+    margin-left: auto;
+  }
+  .site-contact .item + .item{
+    margin-left: 50px;
+  } 
+  .site-contact .contact__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    color: var(--tittle-tex-color);
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  .site-contact .contact__link:hover,
+  .site-contact .contact__link:focus {
+    color: var(--address-logo-color);
+  }
+  .contact-media{
+    display: flex;
+  }
+  .contact-items{
+    margin-top: 32px;
+    margin-right: 10px;
+    margin-bottom: 36px;
+    margin-left: 30px;
+  }
+  .item{
+    display: flex;
+  }
+  .contact-items{
+   fill: #757575
+  }
+  .contact-items:hover{
+    fill: var(--address-logo-color);
+  }
+  
+  /*                    Підкреслення                      */
+  .nav__link{
+    position: relative;
+  }
+  .nav__link:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 58px;
+    height: 4px;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: var(--address-logo-color);
+    border-radius: 2px; 
+   }
+  .nav__link:hover::after{ 
+    width: 100%; 
+  }

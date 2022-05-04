@@ -1,0 +1,25 @@
+.company__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 94px;
+    
+  }
+  .company__bottom{
+    background-color:#FFFFFF ;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8 ; 
+    border-radius: 4px;
+    color:#afb1b8;
+    background-color:#FFFFFF ;
+    cursor: pointer;
+  }
+  /* #afb1b8 колір емблем */
+  .company__bottom:hover{
+    color:#2196f3;
+    border-color: #2196f3;
+  }
+  .company__item{
+    fill:currentColor;
+  }

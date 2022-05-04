@@ -1,0 +1,196 @@
+.address-info{
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 252px;
+  }
+  .address-logo-element {
+    color: var(--address-logo-color); 
+    text-decoration: none;
+  }
+  .address-logo-accent {
+    color:var(--starter-color);
+    text-decoration: none;
+  }
+  .address-contact {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .address-street {
+    color:var(--starter-color);
+  }
+  .address-contact{
+    display: block;
+    text-decoration: none;
+    margin-top:9px;
+    width: 231px;
+    height: 21px;
+  }
+  .address-contact:hover,
+  .address-contact:focus {
+    color: var(--address-logo-color)
+  }
+  .address-info-footer{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--starter-color);
+  }
+  .logo-footer{
+    display: block;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    padding-bottom: 20px;
+    margin-top: -99px;
+  }
+  .footer-contact{
+    margin-bottom:60px ;
+  }
+  
+  
+  /*                        ADDRESS-SOCIAL                        */
+  
+  .name-media{
+    /* display: block;
+    margin-right: -100px;
+    margin-top: 12px; */
+    
+    align-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: var(--starter-color);
+  }
+  
+  .h5-footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 305px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+  }
+   .address-items{
+    display: inline-block;
+    margin-left: 300px;
+    margin-bottom: -65px;
+   
+   
+    fill:#FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: rgba(255, 255, 255, 0.1);;
+    cursor: pointer;
+    /* margin-left: -230px; */
+    
+  }
+  .address-social .address-items + .address-items{
+    margin-left: 10px;
+  }
+  .address-items:hover,
+  .address-items:focus{
+    fill:#FFFFFF;
+    background-color:#2196f3 ;
+  }
+  /*                      Footer Telegram */
+  .footer-telegram{
+    display: flex;
+    margin-left: 700px;
+  }
+  .footer-h7{
+    margin-top: -20px;
+    margin-left: -95px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+  }
+  .footer-email input{
+    margin-top: 20px;
+    margin-left: -205px;
+    
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    cursor: pointer;
+  }
+  .button-telegram{
+    width: 200px;
+    height: 50px;
+    padding-left: 34px;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-left: 12px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+  
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    color: var(--starter-color);
+  
+    border: 1px solid transparent;
+    background-color: var(--address-logo-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .svg-telegram{
+    margin-left: 20px;
+    margin-right: 24px;
+  }
+  .footer-input::placeholder{
+    display: flex;
+    align-items: center;
+  
+    padding-left: 16px;
+    width: 47px;
+    height: 20px;
+    left: 831px;
+    top: 2802px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+  }

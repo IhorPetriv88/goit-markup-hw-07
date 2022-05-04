@@ -1,0 +1,117 @@
+.logo,
+.site-contact,
+.site-nav {
+  cursor: pointer;
+}
+
+.section__tittle,
+.hero,
+.features-tittle,
+.work-tittle,
+.work-name {
+  color: var(--primaty-text-color);
+}
+
+.section{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  /* height: 500px; */
+}
+
+.section__tittle {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color:var(--starter-color);
+}
+
+/*                        Button Main                        */
+.section__button {
+  display: inline-block;
+  border-radius: 4px;
+  padding-top: 13px;
+  padding-right: 41px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  min-width: 200px;
+  border: 1px solid transparent;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  color:var(--starter-color);
+  background-color:var(--address-logo-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+.hero-tittle,
+.work-info {
+  color: var(--tittle-tex-color);
+}
+.section {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../images/peoples.jpg');
+  background-position: center;  
+  background-color:#2F303A;
+}
+.section-hero {
+  background-color: var(--starter-color);
+  margin-top: 94px;
+}
+.cards{
+  display: inline-flex;
+}
+
+.cards__hero {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.cards__hero-tittle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+ 
+  
+}
+.cards .cards__set+ .cards__set{
+  margin-left: 30px;
+}
+
+.cards__items-size{
+  display: block;
+  content: '';
+  height: 120px;
+  /* width: 270px; */
+  border-radius: 4px;
+  border: 1px solid transparent ;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+}
+ .cards__items{
+  margin-top: 25px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+}

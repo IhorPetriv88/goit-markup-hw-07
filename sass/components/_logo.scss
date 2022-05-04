@@ -1,0 +1,21 @@
+.header {
+    background-color:var(--starter-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    border: 1px solid #ECECEC;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    text-decoration: none;
+  }
+  .logo__element {
+    color:var(--address-logo-color);
+  }
+  .logo__accent {
+    color: var(--primaty-text-color);
+  }
